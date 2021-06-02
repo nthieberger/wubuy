@@ -1,0 +1,18 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Author: Jeffrey Heath
+	Linguist/Web Development: Simon Musgrave
+	Linguist/Web Development: Nick Thieberger
+	Linguist: Brett Baker
+
+# THANKS
+
+    <name>
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Apache Server Configs, jQuery, Modernizr, Normalize.css

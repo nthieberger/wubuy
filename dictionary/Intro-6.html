@@ -1,0 +1,102 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Dictionary - Introduction 6</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <link type="text/plain" rel="author" href="http://domain/humans.txt" />
+</head>
+
+<body>
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+  <h1>6 USE OF INDEX, THESAURUS AND APPENDICES.</h1>
+<p>Instead of a single alphabetical English-Nunggubuyu index or reverse dictionary, I use a combination of index and thesaurus. Readers intending to make use of this volume to find Nunggubuyu items should familiarise themselves with both.</p>
+<p>The thesaurus is essentially a series of lists of Nunggubuyu vocabulary items organised around informal semantic domains. Most of the domains seem natural to me in the context of Nunggubuyu semantics, but. I do not suggest that they have any absolute ethnographic value as such; they are simply designed to help readers find lexical items and appreciate the way in which they are embedded in contexts involving other, semantically related items. In addition, the thesaurus organisation is preferable to an alphabetical index for such areas as flora and fauna, since there simply are no widely-known English names for many of the species.</p>
+<p>The contents of the thesaurus are specified in the Table of Contents. They do not exhaust the entire Nunggubuyu lexicon, so many items (including a great many verbs) are represented only in the alphabetical index. Moreover, some thesaurus sections give crossreferences to groups of vocabulary items listed under a particular heading in the index.</p>
+<p>On the other hand, the alphabetical index is also incomplete. In particular, flora-fauna terminology and terms for parts (human body parts, parts of animals, plants, and objects) are generally missing from the alphabetical index, and persons interested in finding the Nunggubuyu word for 'heart' or 'top (of object)' should skim through the relevant thesaurus sections. Terms for bodily secretions and body functions are also listed in the thesaurus section on body parts. Terms for manufactured objects are also presented far more fully in the thesaurus than in the alphabetical index. Therefore readers should become thoroughly familiar with the thesaurus.</p>
+<p>The remaining appendices are mainly self-explanatory. I include a list of retranscribed words from the mimeoed texts put out by Earl Hughes for the benefit of students wishing to examine further textual materials. I include a sketch of the economic uses of botanical species which can serve as a supplement to Levitt's <a href = "#levitt">recent study</a> of Groote Eylandt ethnobotany* and other similar publications in the region. The maps may be of some help in analysing the myths presented in the earlier volume. The tape inventory will permit readers to listen to recordings of the texts either on site at the. Institute or by listening to copies purchased at cost from the Institute library. Other appendices consist of brief overviews of the lexicon from various points of view.</p>
+<a id="levitt" /><p>*Dulcie Levitt, <u>Plants and People: Aboriginal uses of plants on Groote Eylandt</u>, Australian Institute of Aboriginal Studies, Canberra, 1981.</p>
+
+
+
+
+
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <script language = "JavaScript">
+  var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+} 
+  </script>
+   <div w3-include-html="../footer2.html"></div> 
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
+ <script>
+function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  /*loop through a collection of all HTML elements:*/
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain atrribute:*/
+    file = elmnt.getAttribute("w3-include-html");
+    if (file) {
+      /*make an HTTP request using the attribute value as the file name:*/
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          /*remove the attribute, and call this function once more:*/
+          elmnt.removeAttribute("w3-include-html");
+          includeHTML();
+        }
+      }
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      /*exit the function:*/
+      return;
+    }
+  }
+}
+</script> 
+   <script>
+includeHTML();
+</script
+</body>
+
+</html>

@@ -1,0 +1,118 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Dictionary - Abbreviations</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="../css/normalize.css">
+  <link rel="stylesheet" href="../css/main.css">
+  <link type="text/plain" rel="author" href="http://domain/humans.txt" />
+</head>
+
+<body>
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+     <div w3-include-html="dictionary-header.html"></div>
+  <h1>Abbreviations<corr original = "Abbervations" date = "2019-03-13" resp = "SM"></h1>
+<table>
+<tr><td>Adv</td><td colspan = "2" /><td>Adverb</td></tr>
+<tr><td>Benef</td><td colspan = "2" /><td>Benefactive (with indirect object)</td></tr>
+<tr><td>Caus</td><td colspan = "2" /><td>Causative</td></tr>
+<tr><td>Comit</td><td colspan = "2" /><td>Comitative ('with')</td></tr>
+<tr><td>cpd.</td><td colspan = "2" /><td>compound</td></tr>
+<tr><td>Du</td><td colspan = "2" /><td>Dual</td></tr>
+<tr><td>Etym</td><td colspan = "2" /><td>Etymology</td></tr>
+<tr><td>Fact</td><td colspan = "2" /><td>Factitive ('to make X' where X is a NAdj stem)</td></tr>
+<tr><td>Inch</td><td colspan = "2" /><td>Inch ('to be/become X' where X is a NAdj stem)</td></tr>
+<tr><td>NAdj</td><td colspan = "2" /><td>Adjectival noun</td></tr>
+<tr><td>Nc</td><td colspan = "2" /><td>Common noun</td></tr>
+<tr><td>Nk</td><td colspan = "2" /><td>Kin noun</td></tr>
+<tr><td>Pl</td><td colspan = "2" /><td>Plural</td></tr>
+<tr><td>Pref</td><td colspan = "2" /><td>Prefix</td></tr>
+<tr><td>Recip</td><td colspan = "2" /><td>Reciprocal</td></tr>
+<tr><td>Refl</td><td colspan = "2" /><td>Reflexive</td></tr>
+<tr><td>Sg</td><td colspan = "2" /><td>Singular</td></tr>
+<tr><td>Suff</td><td colspan = "2" /><td>Suffix</td></tr>
+<tr><td>Syn</td><td colspan = "2" /><td>Synonym</td></tr>
+<tr><td>VIntr</td><td colspan = "2" /><td>Intransitive verb</td></tr>
+<tr><td>VTr</td><td colspan = "2" /><td>Transitive verb</td></tr>
+
+ </table>
+<p><b>Note</b>: For noun-class labels and labels for inflectional classes of verbs, see forthcoming Grammar.</p>
+ 
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <script language = "JavaScript">
+  var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+} 
+  </script>
+   <div w3-include-html="../footer2.html"></div> 
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
+ <script>
+function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  /*loop through a collection of all HTML elements:*/
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain atrribute:*/
+    file = elmnt.getAttribute("w3-include-html");
+    if (file) {
+      /*make an HTTP request using the attribute value as the file name:*/
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          /*remove the attribute, and call this function once more:*/
+          elmnt.removeAttribute("w3-include-html");
+          includeHTML();
+        }
+      }
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      /*exit the function:*/
+      return;
+    }
+  }
+}
+</script> 
+   <script>
+includeHTML();
+</script
+</body>
+
+</html>
